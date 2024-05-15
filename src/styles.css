@@ -30,3 +30,9 @@ body {
         background-image: unset !important;
     }
 }
+
+@media all and (max-width: 640px) {
+    .hero__image {
+        display: none !important;
+    }
+}
