@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkredpike_github_io=self.webpackChunkredpike_github_io||[]).push([[317],{7166:function(e,i,t){t.r(i);var u=t(7294);i.default=()=>u.createElement("div",null,"Projects")}}]);
+//# sourceMappingURL=component---src-pages-projects-tsx-3fd3d8418600087d1870.js.map
