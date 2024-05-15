@@ -1,0 +1,32 @@
+html, html > * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.hero__header::before {
+    content: '';
+    position: absolute;
+    background-color: rgb(179, 190, 232);
+    width: 250px;
+    height: 140px;
+    left: -30px;
+    top: -30px;
+    z-index: -1;
+}
+
+@media all and (max-width: 1024px) {
+    .hero__header__wrapper {
+        padding: 50px !important;
+        z-index: 2;
+    }
+
+    .hero__wrapper {
+        background-color: rgb(219, 225, 248) !important;
+        background-image: unset !important;
+    }
+}
