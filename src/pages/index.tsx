@@ -2,21 +2,18 @@ import * as React from 'react'
 import type {HeadFC, PageProps} from 'gatsby'
 import Hero from '../components/Hero/Hero';
 import './../styles.css';
+import About from '../components/About/About';
 
 const pageStyles = {
-  color: '#232129',
-  // padding: 96,
   fontFamily: '-apple-system, Roboto, sans-serif, serif',
-}
+};
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
-    <>
+    <main className={"content"} style={pageStyles}>
       <Hero></Hero>
-      <main style={pageStyles}>
-
-      </main>
-    </>
+      <About></About>
+    </main>
   )
 };
 
