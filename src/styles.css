@@ -22,7 +22,8 @@ body {
 
 @media all and (max-width: 1024px) {
     .hero__header__wrapper,
-    .section__title__wrapper {
+    .section__title__wrapper,
+    .my__info {
         padding: 50px !important;
         z-index: 2;
     }
@@ -30,6 +31,16 @@ body {
     .hero__wrapper {
         background-color: rgb(219, 225, 248) !important;
         background-image: unset !important;
+    }
+
+    .my__info {
+        flex-direction: column !important;
+        margin-top: 25px !important;
+    }
+
+    .my__info__description,
+    .tech__stack__wrapper {
+        width: 100% !important;
     }
 }
 
