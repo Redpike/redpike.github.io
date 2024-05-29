@@ -1,6 +1,6 @@
 import * as React from 'react'
-import image from '../../images/me-min.png';
 import '../../styles.css';
+import { StaticImage } from 'gatsby-plugin-image';
 
 const heroWrapperStyles = {
   display: 'flex',
@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
       </div>
       <div className={'hero__image'} style={heroImageStyles}>
         <picture>
-          <img src={image} alt={'my-photo'} style={imageStyles}/>
+          <StaticImage src={'../../images/me-min.png'} alt={'My Hero photo'} placeholder='blurred' style={imageStyles}/>
         </picture>
       </div>
     </div>
