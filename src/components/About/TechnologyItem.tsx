@@ -5,11 +5,6 @@ interface Props {
     imgPath: string;
 }
 
-const iconStyles = {
-    width: '64px',
-    height: '64px',
-};
-
 const TechnologyItem: React.FC<Props> = (props) => {
 
     return (
